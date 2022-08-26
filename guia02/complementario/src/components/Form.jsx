@@ -5,11 +5,11 @@ const Form = () => {
 
     const [producto, setProducto] = useState()
     const [productos, setProductos] = useState([
-         {producto: 'todo 1',
-        cant: '1'},
-         {producto: 'todo 2',
+         {producto: 'Manzanas',
+        cant: '4'},
+         {producto: 'Jabon',
         cant: '2'},
-         {producto: 'todo 3', 
+         {producto: 'Papel Toalla', 
         cant: '4'}
     ])
 
@@ -43,8 +43,9 @@ const Form = () => {
         <>
 
             <form onSubmit={e => e.preventDefault()}>
-                <label>Agregar tarea</label><br />
+                <label>Agregar Producto</label><br />
                 <input type="text" name="producto" onChange={handleChange} />
+                <label>Agregar Cantidad</label><br />
                 <input type="text" name="cant" onChange={handleChange} />
                 <button onClick={handleClick}>Agregar</button>
             </form>

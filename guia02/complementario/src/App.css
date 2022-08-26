@@ -14,7 +14,7 @@
 }
 
 .App-content {
-  background-color: #61dafb;
+  background-color: #A85CF9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ form button {
   border-radius: 4px;
   padding: 0.5em 1em;
   color: #ffffff;
-  background-color: darkgreen;
+  background-color: #6FDFDF;
   height: 30px;
   width: 120px;
 }

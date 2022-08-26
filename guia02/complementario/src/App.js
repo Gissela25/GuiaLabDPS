@@ -7,7 +7,7 @@ const App = () => {
       <div className="App-content">
         <>
           <p>
-            Aquí haremos nuestro TO-DO list
+            Aquí haremos nuestro Lista del Supermercado
           </p>
           <Form></Form>
         </>

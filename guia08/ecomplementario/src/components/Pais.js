@@ -52,7 +52,9 @@ const Pais = ({ resultado, busqueda }) => {
         <View style={styles.box}>
           <Image
             style={styles.Img}
-            source={require('../Img/sv.png')}
+           //source={require('../Img/sv.png')}
+           //source={{uri:`https://github.com/Gissela25/GuiaLabDPS/blob/master/guia08/ecomplementario/src/Img/${pais}.png`}},
+           source={{uri:`https://dpsgissepa.000webhostapp.com/Banderas/${pais}.png`}}
           />
         </View>
       </View>
